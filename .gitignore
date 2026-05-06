@@ -1,0 +1,32 @@
+# Environment
+.env
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Personal data and outputs
+resume.md
+final_resume.md
+audit_results.md
+outputs/
+jobs/
+
+# Except keep the example jobs file
+!jobs/example_job.md
